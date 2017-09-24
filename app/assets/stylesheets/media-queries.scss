@@ -215,11 +215,10 @@
 
   /* About Section
   -------------------------------------------------------------------- */
-  #about .profile-pic { display: none; }
-  #about .download .button {
+  .profile-pic-container {
     width: 100%;
     text-align: center;
-    padding: 15px 20px;
+    margin-bottom: 50px;
   }
   #about .main-col { padding-right: 30px; }
 
