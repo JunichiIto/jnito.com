@@ -1,24 +1,11 @@
-# README
+# jnito.com
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My portal site: https://jnito.com
 
-Things you may want to cover:
+## Credit
 
-* Ruby version
+- Design template: [ceevee](https://www.themezy.com/free-website-templates/151-ceevee-free-responsive-website-template)
 
-* System dependencies
+## Copyright
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2017 Junichi Ito
