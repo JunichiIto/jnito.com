@@ -12,4 +12,9 @@
 //
 //= require rails-ujs
 //= require turbolinks
-//= require_tree .
+//= require jquery-migrate-1.2.1.min
+//= require jquery.flexslider
+//= require waypoints
+//= require jquery.fittext
+//= require magnific-popup
+//= require init
