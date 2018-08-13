@@ -22,7 +22,7 @@
 
   <div class="row">
 
-    <div class="three columns">
+    <div class="three columns profile-pic-container">
 
       <%= image_tag gravatar_url, alt: 'Junichi Ito', class: 'profile-pic' %>
 
@@ -30,23 +30,19 @@
 
     <div class="nine columns main-col">
 
-      <h2>About Me</h2>
+      <h2>About Junichi Ito</h2>
 
-      <p>Ruby programmer at SonicGarden, Inc.</p>
+      <p>
+        Ruby programmer at <%= link_to 'SonicGarden, Inc.', 'https://www.sonicgarden.jp/' %>
+        <br>
+        Lives in <%= link_to 'Nishiwaki, Hyogo, Japan', 'https://ja.wikipedia.org/wiki/%E8%A5%BF%E8%84%87%E5%B8%82' %>.
+      </p>
 
-      <div class="row">
+      <h2>Works</h2>
 
-        <div class="columns contact-details">
-
-          <h2>Contact Details</h2>
-          <p class="address">
-            <span>Junichi Ito</span><br>
-            <span>Nishiwaki-city, Hyogo, Japan</span><br>
-          </p>
-
-        </div>
-
-      </div> <!-- end row -->
+      <p>
+        Translation: <%= link_to 'Everyday Rails Testing with RSpec', 'https://leanpub.com/everydayrailsrspec-jp' %>
+      </p>
 
     </div> <!-- end .main-col -->
 
